@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instagram Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-container {
+      background-color: #fff;
+      padding: 40px;
+      border: 1px solid #dbdbdb;
+      border-radius: 5px;
+      width: 300px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+    .input-field {
+      position: relative;
+      margin-bottom: 10px;
+    }
+    .input-field input {
+      width: 100%;
+      padding: 10px;
+      padding-left: 35px;
+      box-sizing: border-box;
+      border: 1px solid #dbdbdb;
+      border-radius: 3px;
+      background-color: #fafafa;
+    }
+    .input-field span {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #aaa;
+    }
+    button {
+      width: 100%;
+      background-color: #0095f6;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .options {
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    .options input {
+      margin-right: 5px;
+    }
+    .signup {
+      margin-top: 20px;
+      font-size: 12px;
+    }
+    a {
+      color: #00376b;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Instagram</h2>
+    <div class="input-field">
+      <span>👤</span>
+      <input type="text" placeholder="Username">
+    </div>
+    <div class="input-field">
+      <span>🔒</span>
+      <input type="password" placeholder="Password">
+    </div>
+    <button>Log in</button>
+    <div class="options">
+      <label><input type="checkbox">Remember me</label>
+      <a href="#">Forgot Password?</a>
+    </div>
+    <div class="signup">
+      Don't have an account? <a href="#">Sign up here.</a>
+    </div>
+  </div>
+</body>
+</html>
